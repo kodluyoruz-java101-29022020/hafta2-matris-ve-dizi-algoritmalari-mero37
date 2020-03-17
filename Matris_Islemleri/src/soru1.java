@@ -3,10 +3,10 @@ public class soru1 {
 
 	public static void main(String[] args) {
 		int[][] matris1 = new int[][]{
-            {0,1,0},
-            {0,0,1},
-            {1,1,1},
-            {0,0,0}
+		    {0,1,0},
+		    {0,0,1},
+		    {1,1,1},
+		    {0,0,0}
 		};;
     	int[][] matris2 = new int[matris1.length][matris1[0].length];
 		int canlihucre = 0;
@@ -49,7 +49,7 @@ public class soru1 {
 				else
 					canlihucre=matris1[i+1][j]+matris1[i][j+1]+matris1[i+1][j+1];
 				
-					// Canlı hücre syısını bulduk. Şimdi kurallara göre değişimleri yapıyoruz.		
+					// CanlÃ½ hÃ¼cre syÃ½sÃ½nÃ½ bulduk. Ãimdi kurallara gÃ¶re deÃ°iÃ¾imleri yapÃ½yoruz.		
 				
 				if(matris1[i][j]==0) {
 					
